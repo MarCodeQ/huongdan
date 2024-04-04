@@ -8,6 +8,7 @@ def computeCost(X,y,Theta):
     m = np.size(y)
     J = (1/(2*m)) * sum_error
 # function vomputeCost_Vec
+
 def computeCost_Vec(X,y,Theta):
     error = predict(X,Theta) - y
     m = np.size(y)
