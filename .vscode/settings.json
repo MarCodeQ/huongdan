@@ -1,3 +1,4 @@
 {
-	"workbench.colorTheme": "Synthwave x Fluoromachine & epic animations"
+	"workbench.colorTheme": "Synthwave x Fluoromachine & epic animations",
+	"python.analysis.extraPaths": ["./Kteam/day4_Jtheta_linearRegression"]
 }
