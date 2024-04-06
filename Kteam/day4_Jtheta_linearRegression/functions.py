@@ -7,9 +7,10 @@ def computeCost(X,y,Theta):
     sum_error = np.sum(sqr_error)
     m = np.size(y)
     J = (1/(2*m)) * sum_error
-# function vomputeCost_Vec
-
+    return J
+# function computeCost_Vec
 def computeCost_Vec(X,y,Theta):
-    error = predict(X,Theta) - y
-    m = np.size(y)
-    J = (1/(2*m))*np.transpose*(error)@error
+	error = predict(X,Theta) - y
+	m = np.size(y)
+	J = (1/(2*m))*np.transpose(error)@error
+	return J
